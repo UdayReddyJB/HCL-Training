@@ -1,0 +1,42 @@
+<!--HTML Marquee tag--->
+
+<!DOCTYPE html>
+<html>
+      <head>
+               <title>HTML Marquee tag  </title>
+       <style>
+              .blink{
+                     animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: sans-serif;
+            }
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+        </style>
+      </head>
+      <body>
+             <marquee width="60%" direction="up" height="100px" class="blink">
+             I am Uday Kumar J B from HCL Tech company with SAP ID : 56184972.
+             </marquee>
+ 
+             <marquee width="60%" direction="down" height="100px" class="blink">
+              I am Uday Kumar J B from HCL Tech company with SAP ID : 56184972.
+             </marquee>
+             
+             <marquee width="60%" direction="right" height="100px" class="blink"> 
+               I am Uday Kumar J B from HCL Tech company with SAP ID : 56184972.
+             </marquee>
+              
+              <marquee width="60%" direction="left" height="100px" class="blink">
+                I am Uday Kumar J B from HCL Tech company with SAP ID : 56184972.
+              </marquee>
+              
+              <marquee behavior="scroll" direction="up" scrollamount="1" class="blink">Uday Reddy                        Scrolling</marquee>
+              <marquee behavior="scroll" direction="right" scrollamount="12" class="blink">Uday Reddy</marquee>
+              <marquee behavior="scroll" direction="left" scrollamount="20" class="blink">Uday Reddy</marquee>
+              <marquee behavior="scroll" direction="right" scrollamount="50" class="blink">Uday Reddy</marquee>
+      </body>
+</html>

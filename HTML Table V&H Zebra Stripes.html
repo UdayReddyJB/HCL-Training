@@ -1,0 +1,44 @@
+<!---HTML Table Style--->
+<!---HTML Table - Vertical and Horizontal Zebra Strips--->
+
+<!DOCTYPE html>
+<html lang="en">
+      <head>
+               <title>HTML Tables - V&H Zebra Stripes </title>
+         <style>
+                 table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+
+th:nth-child(even),td:nth-child(even) {
+  background-color: rgba(150, 212, 212, 0.4);
+}
+         </style>
+      </head>
+      <body>          
+                 <h2>Striped Table</h2>
+<p>For zebra-striped tables, use the nth-child() selector and add a background-color to all even (or odd) table rows:</p>
+            <table style="width:100%">
+                   <tr>
+                       <th colspan="2">Company</th>
+                       <th>Contact</th>
+                       <th>Country</th>
+                  </tr>
+                  <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                 </tr>
+                 <tr>
+                     <td>Centro comercial Moctezuma</td>
+                     <td>Francisco Chang</td>
+                     <td>Mexico</td>
+                 </tr>
+         </table>
+    </body>
+</html>
